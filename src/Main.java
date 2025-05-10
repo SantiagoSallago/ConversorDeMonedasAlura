@@ -16,7 +16,7 @@ import static java.lang.Integer.parseInt;
 public class Main {
     public static void main(String[] args) {
         try {
-            String key = "51786f614839ece5ea42cc38";
+            String key = "b24afe9888c1289db62e3f2e";
             HttpClient client = HttpClient.newHttpClient();
             HttpRequest request = HttpRequest.newBuilder()
                     .uri(new URI("https://v6.exchangerate-api.com/v6/" + key + "/latest/USD"))
